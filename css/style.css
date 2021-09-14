@@ -1,1 +1,65 @@
 /* Ici vos styles CSS*/
+
+body {
+    background-color: #DFEFEC;
+    font-family:'Noto Sans JP', sans-serif; /* C'est la police que j'ai chargé depuis Google font */
+}
+
+section {
+    background-color: white;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color:#0DBB9D ;
+}
+
+h3 {
+    font-style: italic;
+}
+
+header, footer {
+    background-color: #0DBB9D;
+    color : white;
+}
+
+footer {
+    text-align: center;
+}
+
+.definition {
+    background-color: #FFFFDB;
+    text-align: center;
+}
+
+strong {
+    background-color: yellow;
+}
+
+em {
+    text-decoration: overline;
+}
+
+a {
+    color: white;
+}
+
+footer > p {
+    color: black;
+}
+
+.ressources {
+    color : white;
+}
+
+.liens {
+    font-weight: 800;
+    font-size: 13px;
+}
