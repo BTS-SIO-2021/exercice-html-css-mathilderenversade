@@ -67,3 +67,15 @@ footer > p {
     font-weight: 800;
     font-size: 13px;
 }
+
+img {
+    border: solid 2px black;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    /*
+    pour le centrage de mon image. J'ai remarqué que une balise <img> est une balise de type inline ce qui signifie que l'élément va occuper dans la page juste sa place et non pas tout l'espace disponible (= toute la largeur disponible). Donc 1ere solution, je change le compportement de mon élément, en le transformant en élément de type block, pour cela j'utilise la propriété display et je lui associe la valeur block.
+    display: block;
+    margin: auto;
+    */
+}
