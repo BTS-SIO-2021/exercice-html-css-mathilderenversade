@@ -25,6 +25,10 @@ h3 {
     font-style: italic;
 }
 
+p {
+    line-height: 40px;
+}
+
 header, footer {
     background-color: #0DBB9D;
     color : white;
